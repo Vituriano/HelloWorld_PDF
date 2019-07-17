@@ -35,13 +35,15 @@ const data = `  <html>
                 </html> `;
 
 //gera html
-fs.writeFile(`./HTML/new.html`, data , function (erro) {
+fs.writeFile(`./HTML/newFile.html`, data , function (erro) {
     if (erro) throw erro;
 });
 //ler html
-var html = fs.readFileSync(`./HTML/new.html`, 'utf8');
-var options = { format: 'Letter' };
-//gera PDF a partir do html
+var html = fs.readFileSync(`./HTML/newFile.html`, 'utf8');
+//var options = { format: 'A4', orientation: 'portrait' };
+ //gera PDF a partir do html
 pdf.create(html, options).toFile(`./Docs/newFile.pdf`, function (err, res) {
     if (err) throw erro;
 });
+
+server.listen(3000);
