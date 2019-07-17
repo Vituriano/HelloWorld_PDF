@@ -1,0 +1,19 @@
+{
+  "name": "geradorpdf",
+  "version": "1.0.0",
+  "description": "Converte uma página HTML em um documento PDF. Esses códigos são apenas para fins de estudo.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vituriano/geradorPDF.git"
+  },
+  "author": "Vituriano Oliveira Xisto (viturianooliveira@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vituriano/geradorPDF/issues"
+  },
+  "homepage": "https://github.com/Vituriano/geradorPDF#readme"
+}
