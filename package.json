@@ -4,7 +4,8 @@
   "description": "Converte uma página HTML em um documento PDF. Esses códigos são apenas para fins de estudo.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/Vituriano/geradorPDF/issues"
   },
-  "homepage": "https://github.com/Vituriano/geradorPDF#readme"
+  "homepage": "https://github.com/Vituriano/geradorPDF#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "html-pdf": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
 }
